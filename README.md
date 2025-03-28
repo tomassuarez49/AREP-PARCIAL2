@@ -1,3 +1,5 @@
+Para ejecutar es necesario tener la imagen del jar en la maquina ec2, haciendo el envio con scp -i y ejecutandolo con el comando java -jar "jar-name". Cabe aclarar que la maquina ec2 debe tener instalado Java 
+
 back 1
 
 ![image](https://github.com/user-attachments/assets/dcd25c84-d6b1-4a35-a48e-89f6f820aedd)
