@@ -1,5 +1,5 @@
 package main.java.com.mycompany.parcial2;
-import main.java.*;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -32,7 +32,7 @@ public class das {
 	};
 
 	@GetMapping("/hello")
-	public Greeting hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return "hello";
 	}
 
